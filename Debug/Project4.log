@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\user-pc\source\repos\Project4\Header.h(60,33): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\user-pc\source\repos\Project4\Header.h(43,20): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\user-pc\source\repos\Project4\Header.h(67): message : see reference to function template instantiation 'void Print<int>(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled
+  Project4.vcxproj -> C:\Users\user-pc\source\repos\Project4\Debug\Project4.exe
