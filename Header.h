@@ -56,7 +56,6 @@ void RandomSearch(double function(double), int a, int b ) {
 		double q = 0.005;
 		for (size_t j = 0; j < 20;  ++j) {
 			double N = CalcPoints(P, q);
-			//size_t _i = i;
 			arguments[i].push_back(floor(N));
 			values[i].push_back(FindMinX(function, N, a, b));
 			q += 0.005;
